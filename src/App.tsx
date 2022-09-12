@@ -1,5 +1,5 @@
 import { CssBaseline } from '@mui/material';
-import { HashRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 
 import { Main, Page404, UserList, UserPage } from 'pages';
 import { Navbar, UserAlbums, UserPosts, UserTodos } from 'components';
